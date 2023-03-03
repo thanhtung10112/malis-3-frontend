@@ -1,0 +1,35 @@
+
+{
+  "head_title": "Parameters Management",
+  "search_placeholder": "Search by type and description.",
+  "validation_message": {
+    "type_id_required": "Type is required!",
+    "type_id_max": "Type must be less than 8 characters!",
+    "type_id_match": "Type must contain only digits and letters!",
+    "description_max": "Description must be less than 80 characters",
+    "nbr_default_required": "Number of defaults is required!",
+    "nbr_default_type_number": "Must be a number",
+    "nbr_default_min": "Must be larger or equals to 0",
+    "attributes_match": "Incorrect format. Please see the tooltip for the correct format",
+    "category_match": "Category is required!"
+  },
+  "form": {
+    "title": {
+      "update_parameter_type": "Update Parameter type",
+      "create_parameter_type": "Create Parameter type"
+    },
+    "label": {
+      "group_id": "Group #",
+      "group_name": "Group Name",
+      "description": "Description"
+    }
+  },
+  "confirmation": {
+    "delete": "Are you sure you want to delete {{length}} selected parameter?",
+    "enable": "Are you sure you want to enable {{length}} selected parameter?",
+    "disable": "Are you sure you want to disable {{length}} selected parameter?",
+    "delete_many": "Are you sure you want to delete {{length}} selected parameters?",
+    "enable_many": "Are you sure you want to enable {{length}} selected parameters?",
+    "disable_many": "Are you sure you want to disable {{length}} selected parameters?"
+  }
+}

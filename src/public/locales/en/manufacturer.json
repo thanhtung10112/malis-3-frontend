@@ -1,0 +1,25 @@
+{
+  "head_title": "Manufacturers Management",
+  "search_placeholder": "Search by manufacturer and name",
+  "form": {
+    "title": {
+      "create": "Create Manufacturer",
+      "update": "Update Manufacturer"
+    },
+    "message_validation": {
+      "manufacturer_id_required": "Manufacturer # is required!",
+      "manufacturer_id_type": "Manufacturer # must be number!",
+      "manufacturer_id_range": "Manufacturer # must be in range of 1-100000, please select a valid value.",
+      "name_required": "Name is required!",
+      "name_max": "Name must be less than 50 characters!"
+    }
+  },
+  "confirmation": {
+    "delete": "Are you sure you want to delete {{length}} manufacturer?",
+    "delete_many": "Are you sure you want to delete {{length}} manufacturers?",
+    "enable": "Are you sure you want to enable {{length}} manufacturer?",
+    "enable_many": "Are you sure you want to enable {{length}} manufacturers?",
+    "disable": "Are you sure you want to disable {{length}} manufacturer?",
+    "disable_many": "Are you sure you want to disable {{length}} manufacturers?"
+  }
+}

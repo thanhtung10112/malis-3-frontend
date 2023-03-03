@@ -1,0 +1,29 @@
+{
+  "head_title": "Assemblies Management",
+  "search_placeholder": "Search by assembly # and description",
+  "validation_message": {
+    "dpn_required": "Assembly # is required!",
+    "dpn_match": "The \"Assembly #\" must be Gnnn (\"nnn\" are numbers)",
+    "drawing_id_required": "Drawing # is required!",
+    "unit_required": "Unit is required!",
+    "manu_ref_max": "Maximum length is 255 characters",
+    "quantity_range": "The \"Quantity\" field must be number and in the range between 0.00 to 99 999.99",
+    "job_id_required": "Job is required!"
+  },
+  "confirmation": {
+    "delete": "Are you sure want to delete {{length}} selected assembly?",
+    "delete_many": "Are you sure want to delete {{length}} selected assemblies?"
+  },
+  "form": {
+    "title": {
+      "update_assembly": "Update Assembly",
+      "create_assembly": "Create Assembly"
+    },
+    "tab": {
+      "manufacturer": "Manufacturer",
+      "components": "Components",
+      "parent": "Parents"
+    }
+  }
+
+}

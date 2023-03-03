@@ -1,0 +1,32 @@
+{
+  "head_title": "Groups Management",
+  "search_placeholder": "Search by group #, group name and description",
+  "validation_message": {
+    "group_id_required": "Group is required!",
+    "group_id_max": "Group must be less than 4 characters!",
+    "group_id_regex": "Only letters are allowed!",
+    "name_required": "Name is required!",
+    "name_max": "Name must be less than 80 characters!",
+    "description_max": "Description maximum length is 60!"
+  },
+  "form": {
+    "title": {
+      "update_group": "Update Group",
+      "create_group": "Create Group"
+    },
+    "label": {
+      "group_id": "Group #",
+      "group_name": "Group Name",
+      "description": "Description"
+    }
+  },
+  "confirmation": {
+    "title": "Confirmation",
+    "delete": "Are you sure you want to delete {{length}} selected group?",
+    "disable": "Are you sure you want to disable {{length}} selected group?",
+    "enable": "Are you sure you want to enable {{length}} selected group?",
+    "delete_many": "Are you sure you want to delete {{length}} selected groups?",
+    "disable_many": "Are you sure you want to disable {{length}} selected groups?",
+    "enable_many": "Are you sure you want to enable {{length}} selected groups?"
+  }
+}

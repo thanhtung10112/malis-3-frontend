@@ -1,0 +1,32 @@
+{
+  "head_title": "Currencies Management",
+  "search_placeholder": "Search by code and description",
+  "form": {
+    "create_currency": "Create currency",
+    "update_currency": "Update currency"
+  },
+  "label": {
+    "code": "Code",
+    "round_to": "Round to",
+    "currency_multiplier": "Currency multiplier",
+    "description": "Description"
+  },
+  "confirmation": {
+    "title": "Confirmation",
+    "delete": "Are you sure you want to delete {{length}} selected currency?",
+    "delete_many": "Are you sure you want to delete {{length}} selected currencies?",
+    "enable": "Are you sure you want to enable {{length}} selected currency?",
+    "enable_many": "Are you sure you want to enable {{length}} selected currencies?",
+    "disable": "Are you sure you want to disable {{length}} selected currency?",
+    "disable_many": "Are you sure you want to disable {{length}} selected currencies?"
+  },
+  "validation_message": {
+    "currency_id_required": "Code is required!",
+    "currency_id_capital": "Code must be 3 capital letters!",
+    "multiplier_required": "Multiplier is required!",
+    "rate_required": "Rate is required!",
+    "rate_range": "Rate must be greater than 0 and less than or equal to 1000!",
+    "round_to_required": "Round To is required!",
+    "description_max": "Description maximum length is 40!"
+  }
+}

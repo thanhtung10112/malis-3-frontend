@@ -1,0 +1,65 @@
+{
+  "advanced_filter": "Advanced Filter",
+  "filter_presets": {
+    "title": "Preset List",
+    "my_filters": "My Presets",
+    "shared_filters": "Shared Presets",
+    "system_default_filter": "System Default Preset",
+    "default_filter": "Default Preset:"
+  },
+  "filter_details": {
+    "title": "Preset Details",
+    "name_input": "Name",
+    "set_as_default": "Set as default",
+    "filter_tab": "Filter",
+    "sort_tab": "Sort"
+  },
+  "tooltip": {
+    "expand": "Maximize Advanced Filter",
+    "collapse": "Minimize Advanced Filter ",
+    "close": "Close Advanced Filter",
+    "apply": "Apply the current criteria of the selected preset to the list",
+    "condition_remove_rule": "Remove this rule",
+    "condition_remove_group": "Remove this group and all of its rules",
+    "sort_remove_rule": "Remove this sorting condition",
+    "sort_add_rule": "Add a sorting condition",
+    "share_checkbox": "Publicly share this preset",
+    "unshare_checkbox": "Stop sharing this preset publicly",
+    "update": "Save all the changes you have made to this preset",
+    "create": "Create a new preset"
+  },
+  "list": {
+    "name": "Name",
+    "shared": "Shared",
+    "owner": "Owner"
+  },
+  "validations": {
+    "name_required": "Name is required",
+    "name_max_length": "Preset name must be less than 80 characters"
+  },
+  "confirmation": {
+    "title": "Confirmation",
+    "message_delete": "Are you sure you want to delete the selected preset?",
+    "save_as_title": "Save this preset",
+    "title_warning": "Warning",
+    "description_warning": "Making changes to this preset will affect the default displayed result on the list for all other users. Are you sure you want to proceed?"
+  },
+  "column_list": {
+    "no_column_selected": "No column selected",
+    "add_sort_condition": "Add sort condition"
+  },
+  "condition_group": {
+    "add_rule": "Add rule",
+    "add_group": "Add group"
+  },
+  "sort_condition": {
+    "no_sort_conditions": "No sort conditions",
+    "add_sort_condition": "Add sort condition"
+  },
+  "message": {
+    "apply_success": "The filter preset is applied successfully! This result is temporary"
+  },
+  "button": {
+    "create": "New preset"
+  }
+}

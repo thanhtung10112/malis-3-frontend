@@ -1,0 +1,56 @@
+{
+	"import_react": {
+		"scope": "javascript,typescript,typescriptreact",
+    "prefix": "imr",
+    "body": "import React from 'react'"
+  },
+	"export default": {
+		"scope": "javascript,typescript,typescriptreact",
+		"prefix": "exp",
+		"body": "export default $1"
+	},
+	"import destructoring": {
+		"scope": "javascript,typescript,typescriptreact",
+		"prefix": "imd",
+		"body": "import { $2 } from '$1'"
+	},
+	"console.log": {
+		"scope": "javascript,typescript,typescriptreact",
+		"prefix": "clo",
+		"body": "console.log('$1', '>>>', $1)"
+	},
+	"console.error": {
+		"scope": "javascript,typescript,typescriptreact",
+		"prefix": "cle",
+		"body": "console.error('$1', '>>>', $1)"
+	},
+	"console": {
+		"scope": "javascript,typescript,typescriptreact",
+		"prefix": "clg",
+		"body": "console.log('$1')"
+	},
+	"useState": {
+		"scope": "typescriptreact ",
+		"prefix": "_useState",
+		"body": "const [$1, set$2] = useState($3)"
+	},
+	"useSelector": {
+		"scope": "typescriptreact",
+		"prefix": "_useSelector",
+		"body": "const $1 = useSelector($2.selectors.$1)"
+	},
+	"useDispatch": {
+		"scope": "typescriptreact",
+		"prefix": "_useDispatch",
+		"body": "const dispatch = useDispatch()"
+	},
+	"useEffect": {
+		"scope": "typescriptreact ",
+		"prefix": "_useEffect",
+		"body": [
+			"useEffect(() => {",
+			"\t$2",
+			"}$1)"
+		]
+	}
+}

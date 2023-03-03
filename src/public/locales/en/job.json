@@ -1,0 +1,27 @@
+{
+  "head_title": "Jobs Management",
+  "search_placeholder": "Search by job# and description",
+  "form": {
+    "tab": {
+      "additional_info": "Additional info"
+    },
+    "title": {
+      "update_job": "Update Job",
+      "create_job": "Create Job"
+    }
+  },
+  "validation_message": {
+    "ex_date_comment_max": "Comment must be less than 255 characters!",
+    "job_id_required": "Job # is required!",
+    "job_id_number": "Job # must be 4 digits!",
+    "language_required": "Language is required!",
+    "equipment_type_required": "Equipment Type is required!",
+    "erection_site_required": "Erection site is required!",
+    "contract_no_max": "Contract Number must be less than 80 characters!",
+    "contract_desc_max": "Contract Description must be less than 255 characters!",
+    "credit_letter_max": "L/C must be less than 80 characters!",
+    "people_responsible_required": "Job Responsible is required!",
+    "squad_leader_required": "Squad Leader is required!",
+    "job_users_required": "Job Access is required!"
+  }
+}

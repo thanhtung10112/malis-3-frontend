@@ -1,0 +1,39 @@
+{
+  "head_title": "Drawings Management",
+  "search_placeholder": "Search by drawing or description",
+  "form": {
+    "title": {
+      "create_drawing": "Create drawing",
+      "update_drawing": "Update drawing",
+      "save_as_revision": "Save As New Revision"
+    },
+    "tab": {
+      "detail": "Detail",
+      "parts": "Parts",
+      "tags": "Tags",
+      "synchronization": "Synchronization",
+      "job_notices": "Job Notices",
+      "parents": "Parents"
+    }
+  },
+  "button": {
+    "save_as_revision": "Save As New Revision"
+  },
+  "validation_message": {
+    "drawing_id_required": "Drawing # is required!",
+    "drawing_id_matches": "Drawing # must have 6 digits!",
+    "customer_id_max": "Customer ID mustn't be more than 128 characters!",
+    "revision_required": "Revision is required!",
+    "revision_matches": "Revision must contain maximum 8 characters, with A-Z and/or 0-9 in total!",
+    "drawing_format_required": "Format is required!",
+    "drawing_purpose": "Purpose is required!",
+    "new_revision_required": "This field is required",
+    "new_revision_matches": "Revision must contain maximum 8 characters, with A-Z and/or 0-9 in total",
+    "description_required": "This field is required"
+  },
+  "confirmation": {
+    "delete": "Are you sure you want to delete {{length}} selected drawing?",
+    "delete_many": "Are you sure you want to delete {{length}} selected drawings?"
+  }
+
+}

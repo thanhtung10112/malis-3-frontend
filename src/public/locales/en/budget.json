@@ -1,0 +1,55 @@
+{
+  "head_title": "Budget Management",
+  "search_placeholder": "Search by cost code and description",
+  "import_description": "Your input file (.txt or .xls) must be in specific format in orderto be imported",
+  "import_description_learn_more": "Learn more",
+  "tooltip": {
+    "code": "<p>The cost code rule defined by Drever: mmmnnn (6 figures),with conventions:</p><ul><li>mmm can only be all A-Z or 0-9</li><li>nnn can only be call 0-9</li></ul>"
+  },
+  "button": {
+    "create": "Create new cost code",
+    "import": "Import",
+    "import_write_mode": "Import (Write mode)",
+    "report": "Report",
+    "download": "Download"
+  },
+  "form": {
+    "title": {
+      "create": "create cost code",
+      "update": "update cost code",
+      "import": "Import cost codes",
+      "report": "Report the import cost codes result",
+      "remind_data": "Remind Data Format"
+    },
+    "label": {
+      "file_type": "File type",
+      "file_type_text": "Text file",
+      "file_type_excel": "Excel file (xls, xlsx)",
+      "mode": "Mode",
+      "mode_test": "Test",
+      "mode_write": "Write",
+      "job": "Job",
+      "code": "Code",
+      "puco": "Puco",
+      "currency": "Currency",
+      "amount": "Amount",
+      "description": "Description"
+    }
+  },
+  "validation_message": {
+    "cost_code_required": "Cost code is required!",
+    "cost_code_matches": "Code is invalid, click on this textbox to see the rule!",
+    "puco_required": "Puco is required!",
+    "amount_required": "Amount is required!",
+    "amount_range": "Amount must be from 0.00 to 99 999 999 999.00 (Allow up to 2 decimals)",
+    "description_max_len": "Description must be less than 513 characters!",
+    "import_file_required": "You must select a file with the selected type to start the import process!",
+    "import_file_check_type": "File format is incorrect!",
+    "import_file_check_size": "Only files less than 1MB are allowed!"
+  },
+  "confirmation": {
+    "delete": "Are you sure you want to delete {{length}} cost code?",
+    "delete_many": "Are you sure you want to delete {{length}} cost codes?"
+  }
+
+}

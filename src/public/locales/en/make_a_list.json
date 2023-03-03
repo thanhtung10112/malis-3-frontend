@@ -1,0 +1,42 @@
+{
+  "make_a_list": "Make A List",
+  "validation": {
+    "name_required": "Name is required!",
+    "name_max": "Preset name must be less than 80 characters!",
+    "description_max": "Comment must be less than 255 characters!"
+  },
+  "message": {
+    "distinct_warning": "You have to make sure all the selected columns in the \"Sort On\" tab to appear in the \"Columns\" tab when turning on this option, otherwise, you won't be able to export the list",
+    "choose_at_least_column_save_as": "The save as was not successful! Please choose at least one column to be displayed.",
+    "update_system_preset_warning": "Making changes to this preset will affect the default displayed result on the list for all other users. Are you sure you want to proceed?",
+    "confirm_delete_preset": "Are you sure you want to delete the selected preset?",
+    "bypassing_cache": "Do you want to bypass the cache? The exporting progress might be longer if you bypass the cache."
+  },
+  "label": {
+    "preset_list": "Preset List",
+    "my_presets": "My Presets",
+    "shared_presets": "Shared Presets",
+    "system_default_preset": "System Default Preset",
+    "default_preset": "Default Preset",
+    "preset_details": "Preset Details",
+    "choose_column_displayed": "Choose the columns to be displayed",
+    "select_criteria": "Select the criteria to filter",
+    "select_sorting": "Select the sorting condition",
+    "ignore_case": "Ignore case",
+    "distinct": "Distinct",
+    "bypassing_cache": "Bypassing Cache"
+  },
+  "tooltip": {
+    "ignore_case": "Ignore upper/lower case in comparisons",
+    "distinct": "Show only distinct rows",
+    "close": "Close the Make A List window",
+    "add_column": "Add a column",
+    "remove_column": "Remove this column",
+    "share_checkbox": "Publicly share this preset",
+    "unshare_checkbox": "Stop sharing this preset publicly"
+  },
+  "button": {
+    "create": "New preset",
+    "save": "Create"
+  }
+}

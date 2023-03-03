@@ -1,0 +1,32 @@
+{
+  "head_title_manufacturing_standard": "Manufacturing Standards Equivalences Management",
+  "head_title_material_standard": "Material Standards Equivalences Management",
+  "search_placeholder": "Search by equivalence# and description",
+  "validation_message": {
+    "equiv_id_required": "Equivalence # is required!",
+    "equiv_id_min_len": "Equivalence # must be greater than 0!",
+    "equiv_id_max_len": "Equivalence # must be less than 1000000!",
+    "equiv_id_type_num": "Equivalence # must be a number!",
+    "description_required": "Description is required!",
+    "description_max_len": "Description must be less than 80 characters",
+    "standard_max_len": "Standard must be less than 80 characters"
+  },
+  "form": {},
+  "confirmation": {
+    "delete_manufacturing_standard": "Are you sure you want to delete {{ length }} selected manufacturing standards equivalence?",
+    "delete_many_manufacturing_standard": "Are you sure you want to delete {{ length }} selected manufacturing standards equivalences?",
+    "delete_material_standard": "Are you sure you want to delete {{ length }} selected material standards equivalence?",
+    "delete_many_material_standard": "Are you sure you want to delete {{ length }} selected material standards equivalences?",
+
+    "enable_manufacturing_standard": "Are you sure you want to enable {{ length }} selected manufacturing standards equivalence?",
+    "enable_many_manufacturing_standard": "Are you sure you want to enable {{ length }} selected manufacturing standards equivalences?",
+    "enable_material_standard": "Are you sure you want to enable {{ length }} selected material standards equivalence?",
+    "enable_many_material_standard": "Are you sure you want to enable {{ length }} selected material standards equivalences?",
+
+    "disable_manufacturing_standard": "Are you sure you want to disable {{ length }} selected manufacturing standards equivalence?",
+    "disable_many_manufacturing_standard": "Are you sure you want to disable {{ length }} selected manufacturing standards equivalences?",
+    "disable_material_standard": "Are you sure you want to disable {{ length }} selected material standards equivalence?",
+    "disable_many_material_standard": "Are you sure you want to disable {{ length }} selected material standards equivalences?"
+  }
+
+}

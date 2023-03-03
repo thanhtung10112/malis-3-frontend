@@ -1,0 +1,169 @@
+stages:
+  - build
+  - deploy
+
+# build-docker-image:
+#     tags:
+#         - malis3
+#     stage: build
+#     before_script:
+#         - "curl --location --request POST $SLACK_WEBHOOK_URL --header 'Content-Type: application/json' --data-raw '{
+#                     \"attachments\": [
+#                             {
+#                                     \"color\": \"#2196f3\",
+#                                     \"blocks\": [
+#                                             {
+#                                                     \"type\": \"section\",
+#                                                     \"text\": {
+#                                                             \"type\": \"mrkdwn\",
+#                                                             \"text\": \"@here Frontend build start!\"
+#                                                     }
+#                                             }
+#                                     ]
+#                             }
+#                     ]
+#             }'"
+#         - docker login "$HABOR_REGISTRY_URL" -u "$HABOR_REGISTRY_USER" -p "$HABOR_REGISTRY_PASSWORD"
+#     script:
+#         - docker build -t "$HABOR_REGISTRY_URL/drever/malis3-frontend:latest" .
+#         - docker tag "$HABOR_REGISTRY_URL/drever/malis3-frontend:latest" "$HABOR_REGISTRY_URL/drever/malis3-frontend:develop"
+#     only:
+#         - gitlab-ci-implementation
+#         - develop
+
+# deploy-to-qa:
+#     tags:
+#         - malis3
+#     stage: deploy
+#     script:
+#         - cd /home/malis/deployed_stack/malis3/frontend
+#         - docker-compose up -d malis3-frontend
+#         - "curl --location --request POST $SLACK_WEBHOOK_URL --header 'Content-Type: application/json' --data-raw '{
+#                     \"attachments\": [
+#                             {
+#                                     \"color\": \"#6fbf73\",
+#                                     \"blocks\": [
+#                                             {
+#                                                     \"type\": \"section\",
+#                                                     \"text\": {
+#                                                             \"type\": \"mrkdwn\",
+#                                                             \"text\": \"@here Frontend is now deployed at 192.168.1.75. Please wait for a minute before accessing it at <http://192.168.1.75|192.168.1.75>\"
+#                                                     }
+#                                             }
+#                                     ]
+#                             }
+#                     ]
+#             }'"
+#     only:
+#         - gitlab-ci-implementation
+#         - develop
+
+# push-image-to-habor:
+#     tags:
+#         - malis3
+#     stage: deploy
+#     script:
+#         - docker push "$HABOR_REGISTRY_URL/drever/malis3-frontend:latest"
+#         - docker push "$HABOR_REGISTRY_URL/drever/malis3-frontend:develop"
+#         - "curl --location --request POST $SLACK_WEBHOOK_URL --header 'Content-Type: application/json' --data-raw '{
+#                     \"attachments\": [
+#                             {
+#                                     \"color\": \"#6fbf73\",
+#                                     \"blocks\": [
+#                                             {
+#                                                     \"type\": \"section\",
+#                                                     \"text\": {
+#                                                             \"type\": \"mrkdwn\",
+#                                                             \"text\": \"@here Frontend latest image is now ready on Habor\"
+#                                                     }
+#                                             }
+#                                     ]
+#                             }
+#                     ]
+#             }'"
+#     only:
+#         - gitlab-ci-implementation
+#         - develop
+
+wfh-build-docker-image:
+    tags:
+        - wfh-malis3
+    stage: build
+    before_script:
+        - "curl --location --request POST $SLACK_WEBHOOK_URL --header 'Content-Type: application/json' --data-raw '{
+                    \"attachments\": [
+                            {
+                                    \"color\": \"#2196f3\",
+                                    \"blocks\": [
+                                            {
+                                                    \"type\": \"section\",
+                                                    \"text\": {
+                                                            \"type\": \"mrkdwn\",
+                                                            \"text\": \"@here Frontend build start (wfh)!\"
+                                                    }
+                                            }
+                                    ]
+                            }
+                    ]
+            }'"
+        - docker login "$HABOR_REGISTRY_URL" -u "$HABOR_REGISTRY_USER" -p "$HABOR_REGISTRY_PASSWORD"
+    script:
+        - docker build -t "$HABOR_REGISTRY_URL/drever/malis3-frontend:latest" .
+        - docker tag "$HABOR_REGISTRY_URL/drever/malis3-frontend:latest" "$HABOR_REGISTRY_URL/drever/malis3-frontend:develop"
+    only:
+        - gitlab-ci-implementation
+        - develop
+
+wfh-deploy-to-qa:
+    tags:
+        - wfh-malis3
+    stage: deploy
+    script:
+        - cd /home/minhnguyen/deployed_stack/drever/malis3-frontend
+        - docker-compose up -d malis3-frontend
+        - "curl --location --request POST $SLACK_WEBHOOK_URL --header 'Content-Type: application/json' --data-raw '{
+                    \"attachments\": [
+                            {
+                                    \"color\": \"#6fbf73\",
+                                    \"blocks\": [
+                                            {
+                                                    \"type\": \"section\",
+                                                    \"text\": {
+                                                            \"type\": \"mrkdwn\",
+                                                            \"text\": \"@here Frontend is now deployed on https://malis-dev.edge-works.net. Please wait for a minute before accessing it at <http://91.250.101.68:5002|91.250.101.68:5002>\"
+                                                    }
+                                            }
+                                    ]
+                            }
+                    ]
+            }'"
+    only:
+        - gitlab-ci-implementation
+        - develop
+
+wfh-push-image-to-habor:
+    tags:
+        - wfh-malis3
+    stage: deploy
+    script:
+        - docker push "$HABOR_REGISTRY_URL/drever/malis3-frontend:latest"
+        - docker push "$HABOR_REGISTRY_URL/drever/malis3-frontend:develop"
+        - "curl --location --request POST $SLACK_WEBHOOK_URL --header 'Content-Type: application/json' --data-raw '{
+                    \"attachments\": [
+                            {
+                                    \"color\": \"#6fbf73\",
+                                    \"blocks\": [
+                                            {
+                                                    \"type\": \"section\",
+                                                    \"text\": {
+                                                            \"type\": \"mrkdwn\",
+                                                            \"text\": \"@here Frontend latest image is now ready on Habor\"
+                                                    }
+                                            }
+                                    ]
+                            }
+                    ]
+            }'"
+    only:
+        - gitlab-ci-implementation
+        - develop

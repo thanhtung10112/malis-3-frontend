@@ -1,0 +1,33 @@
+@import 'codemirror/lib/codemirror.css';
+@import 'codemirror/theme/material.css';
+@import 'suneditor/dist/css/suneditor.min.css';
+
+.CodeMirror {
+  height: 100%;
+  /* margin-top: '1rem'; */
+}
+
+body {
+  background-color: white !important;
+}
+
+.react-datepicker-wrapper {
+  width: 100%
+}
+
+a {
+  text-decoration: none;
+  color: #303030;
+}
+
+a[target="_blank"] {
+  color: blue;
+}
+
+a[target="_blank"]:hover {
+  text-decoration: underline;
+}
+
+.header-edit-cell {
+  background-color: #bbdefb
+}

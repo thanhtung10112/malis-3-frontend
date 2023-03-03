@@ -1,0 +1,53 @@
+{
+  "head_title": "Locations Management",
+  "search_placeholder": "Search by code and name",
+  "validation_message": {
+    "location_id_required": "Code is required!",
+    "location_id_format": "Code must be 5 digits!",
+    "language_required": "Language is required!",
+    "location_type_required": "Type is required!",
+    "name_required": "Name is required!",
+    "name_max": "Name must be less than 80 characters!",
+    "office_email_format": "Email is invalid!",
+    "office_zip_format": "Zipcode must be from 4 to 6 digits!",
+    "comment_max_length": "Comment must be less than 500 characters!",
+    "workshop_email_format": "Email is invalid!",
+    "remark_max": "Remark must be less than 50 characters!"
+  },
+  "form": {
+    "title": {
+      "update_location": "Update location",
+      "create_location": "Create location"
+    },
+    "tab": {
+      "specialties": "Specialties",
+      "main_address": "Main address",
+      "secondary_address": "Secondary address"
+    },
+    "code": "Code",
+    "language": "Language",
+    "type": "Type",
+    "name": "Name",
+    "address": "Address {{order}}",
+    "phone": "Phone",
+    "country": "Country",
+    "city": "City",
+    "zipcode": "Zipcode",
+    "state": "State",
+    "email": "Email",
+    "fax": "Fax",
+    "comment": "Comment"
+  },
+  "tooltip": {
+    "generate_code": "Generate code"
+  },
+  "confirmation": {
+    "delete": "Are you sure you want to delete {{length}} selected location?",
+    "enable": "Are you sure you want to enable {{length}} selected location?",
+    "disable": "Are you sure you want to disable {{length}} selected location?",
+    "delete_many": "Are you sure you want to delete {{length}} selected locations?",
+    "enable_many": "Are you sure you want to enable {{length}} selected locations?",
+    "disable_many": "Are you sure you want to disable {{length}} selected locations?"
+  }
+
+}

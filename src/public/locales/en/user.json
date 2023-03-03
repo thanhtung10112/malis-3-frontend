@@ -1,0 +1,68 @@
+{
+  "head_title": "Users Management",
+  "search_placeholder": "Search by username, full name and email",
+  "validation_message": {
+    "user_id_required": "Username is required!",
+    "user_id_length": "Username valid length is from 2 to 12!",
+    "user_id_white_space": "User is invalid",
+    "user_abb_max": "User abbreviation must be less than 6 characters!",
+    "first_name_required": "First name is required!",
+    "first_name_max": "First name must be less than 20 characters!",
+    "last_name_required": "Last name is required!",
+    "last_name_max": "Last name must be less than 20 characters!",
+    "password_required": "Password is required!",
+    "password_length": "Password valid length is from 6 to 32!",
+    "confirm_password_match": "Confirm password does not match with password!",
+    "email_format": "Email format is not correct! Please check again.",
+    "timezone_required": "Timezone is required!",
+    "puco_required": "Purchasing company is required!",
+    "default_language_required": "Default language is required!",
+    "valid_from_invalid": "Valid from is incorrect",
+    "valid_until_invalid": "Valid until is incorrect"
+
+  },
+  "form": {
+    "title": {
+      "update_user": "Update User",
+      "create_user": "Create User"
+    },
+    "tab": {
+      "groups": "Groups",
+      "jobs": "Jobs"
+    },
+    "label": {
+      "reset_password": "Reset password",
+      "user_name": "Username",
+      "user_abb": "User Abbr.",
+      "first_name": "First name",
+      "last_name": "Last name",
+      "password": "Password",
+      "confirm_password": "Confirm Password",
+      "password_strength": "Password Strength",
+      "email": "Email",
+      "puco": "Purchasing company",
+      "default_language": "Default languages",
+      "valid_from": "Valid from",
+      "valid_until": "Valid until",
+      "timezones": "Timezones",
+      "access_rights": "Access rights"
+    },
+    "description": {
+      "tab_job": "This table shows the permissions of the current user on all Jobs. You can change the permissions here."
+    }
+  },
+  "confirmation": {
+    "title": "Confirmation",
+    "delete": "Are you sure you want to delete {{length}} selected user?",
+    "disable": "Are you sure you want to disable {{length}} selected user?",
+    "enable": "Are you sure you want to enable {{length}} selected user?",
+    "lock": "Are you sure you want to lock {{length}} selected user?",
+    "unlock": "Are you sure you want to unlock {{length}} selected user?",
+
+    "delete_many": "Are you sure you want to delete {{length}} selected users?",
+    "disable_many": "Are you sure you want to disable {{length}} selected users?",
+    "enable_many": "Are you sure you want to enable {{length}} selected users?",
+    "lock_many": "Are you sure you want to lock {{length}} selected users?",
+    "unlock_many": "Are you sure you want to unlock {{length}} selected users?"
+  }
+}

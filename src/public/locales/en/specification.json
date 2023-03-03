@@ -1,0 +1,20 @@
+{
+  "head_title": "Specifications Management",
+  "search_placeholder": "Search by document # and content",
+  "validation_message": {
+    "spec_id_required": "Document # is required!",
+    "spec_id_match": "The \"Document #\" must be Dnnn (\"nnn\" are numbers)",
+    "drawing_id_required": "You must select a drawing within the selected job to define this specification!",
+    "job_id_required": "Job is required!"
+  },
+  "confirmation": {
+    "delete": "Are you sure want to delete {{length}} selected specification?",
+    "delete_many": "Are you sure want to delete {{length}} selected specifications?"
+  },
+  "form": {
+    "title": {
+      "update_specification": "Update Specification",
+      "create_specification": "Create New Specification"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "head_title": "Tags Management",
+  "search_placeholder": "Search by tag # or description",
+  "form": {
+    "title": {
+      "update_tag": "Update Tag",
+      "create_tag": "Create Tag"
+    }
+  },
+  "confirmation": {
+    "delete": "Are you sure you want to delete {{length}} Tag(s)?",
+    "delete_many": "Are you sure you want to delete {{length}} Tag(s)?"
+  },
+  "validation_message": {
+    "element_id_required": "Element # is required!",
+    "element_id_match": "The \"Element #\" field must be number and in the range between 0 to 9999",
+    "schematic_id_required": "You must select a schematic within the selected job to define this tag!",
+    "job_id_required": "Job is required!",
+    "tag_required": "Tag # is required!",
+    "tag_max": "Maximum length is 50 characters!"
+  }
+}

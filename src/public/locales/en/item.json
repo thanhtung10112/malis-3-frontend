@@ -1,0 +1,31 @@
+{
+  "head_title": "Items Management",
+  "search_placeholder": "Search by code and name",
+  "confirmation": {
+    "delete": "Are you sure you want to delete {{length}} selected item?",
+    "delete_many": "Are you sure you want to delete {{length}} selected items?"
+  },
+  "form": {
+    "title": {
+      "create_item": "Create Item",
+      "update_item": "Update Item",
+      "copy_attribute": "Copy Attribute"
+    },
+    "tab": {
+      "standard": "Standard",
+      "manufacturer": "Manufacturer",
+      "parent": "Parents"
+    }
+  },
+  "validation_message": {
+    "mass_range": "The \"Mass\" must be number (range between 0.0000 to 999 999 99.9999)",
+    "mass_required": "Mass is required!",
+    "manu_ref_max": "Maximum length is 255 characters",
+    "dpn_required": "Item # is required!",
+    "dpn_matches": "The \"Items #\" must be Hnnn (\"nnn\" are numbers)",
+    "drawing_id_required": "Drawing # is required!",
+    "unit_required": "Unit is required!",
+    "job_id_required": "Job is required!"
+  }
+
+}

@@ -1,0 +1,53 @@
+{
+  "button": {
+    "new": "new",
+    "delete": "delete",
+    "enable": "enable",
+    "disable": "disable",
+    "statistic": "statistic",
+    "make_a_list": "make a list",
+    "lock": "lock",
+    "unlock": "unlock",
+    "create": "create",
+    "import": "import",
+    "update": "update",
+    "remove": "remove",
+    "close": "close",
+    "add": "add",
+    "yes": "yes",
+    "no": "no",
+    "apply": "Apply",
+    "save_as": "Save As",
+    "save": "save",
+    "cancel": "cancel",
+    "view_edition": "view edition",
+    "edit_permission": "edit permission",
+    "set_as_default": "Set as default",
+    "export_to_screen": "Export to screen",
+    "export_to_pdf": "Export to PDF",
+    "export_to_excel": "Export to Excel",
+    "copy_attribute": "Copy attribute"
+  },
+  "label": {
+    "warning": "Warning",
+    "confirmation": "Confirmation"
+  },
+  "tab": {
+    "general": "General",
+    "history": "History",
+    "extended_properties": "Extended Properties",
+    "others": "Others"
+  },
+  "created_by": "Created by",
+  "created_at": "Created at",
+  "updated_by": "Updated by",
+  "updated_at": "Updated at",
+  "last_modified": "Last modified",
+  "no_data": "No data",
+  "no_row": "No row",
+  "loading": "Loading",
+  "attach_documents": "Attached Documents",
+  "error_message": {
+    "500": "An unexpected error has occurred, please contact your administrator."
+  }
+}
